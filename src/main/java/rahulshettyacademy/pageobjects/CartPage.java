@@ -15,6 +15,10 @@ public class CartPage extends AbstractComponent {
 
 	@FindBy(css = ".totalRow button")
 	WebElement checkoutEle;
+	
+	//testing purpose
+	@FindBy(css = ".test")
+	WebElement test;
 
 	@FindBy(css = ".cartSection h3")
 	private List<WebElement> cartProducts;
